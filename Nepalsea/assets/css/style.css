@@ -1586,12 +1586,14 @@ section {
   color: #444444;
   background: #fafbff;
   padding: 30px;
+  text-align: center;
 }
 
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
   color: #4154f1;
+
 }
 
 .contact .info-box h3 {
@@ -1606,6 +1608,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+ 
 }
 
 .contact .php-email-form {
@@ -1688,6 +1691,38 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #5969f3;
 }
+
+.card2 {
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  border: none;
+  -webkit-box-shadow: 0 1px 7px rgba(0,0,0,.05);
+  box-shadow: 0 1px 7px rgba(0,0,0,.05);
+}
+.card2:hover {
+  transform: scale(1.04);
+  border: none;
+}
+/* .card2 > a:hover, .card2 > a:active {
+      color: inherit;
+      background: #fff;
+      text-decoration: none;}
+      .card2 > a:hover .card-icon-top,
+      .card2 > a:hover .card-footer .vfi,
+      .card2 > a:hover .card-tags,
+      .card2 > a:active .card-icon-top,
+      .card2 > a:active .card-footer .vfi,
+      .card2 > a:active .card-tags {
+        color: inherit; }
+.card2 > a:hover .card-title,
+.card2 > a:active .card-title {
+  color: #097d6c;
+}
+      .card2 > a:hover .text-muted, .card2 > a:active .text-muted {
+        color: #fff !important; }
+      .card2 > a:hover .card-tags:before, .card2 > a:active .card-tags:before {
+        background-color: #fff; } */
+/* // end card2 */
 
 @-webkit-keyframes animate-loading {
   0% {
