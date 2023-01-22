@@ -301,8 +301,57 @@ showSlides();
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
   }
+  // $(document).ready(function(){
+  //   $("#imageGallery").magnificPopup({
+  //     //overlay: "rgba(0, 100, 0, 0.5)"
+  
+  //     closeButton:{
+  //         src: "images/close.png",
+  //         width: "40px",
+  //         height:"40px"
+  //     },
+  //     imageBorder: "15px solid #ffffff",
+  //     borderRadius: "10px",
+  //     imageWidth: "500px",
+  //     imageHeight: "400px",
+  //     imageCaption: {
+  //         exist: true,
+  //         color: "#ffffff",
+  //         fontSize: "40px"
+  //     },
+  //     open: function(){
+  //         console.log("opened");
+  //     },
+  //     close: function(){
+  //         console.log("closed");
+  //     }
+  // });
+  
+  // });
+  // $(document).ready(function() {
+  //   $('#gallary-portfolio').magnificPopup({
+  //     delegate: 'a',
+  //     type: 'image',
+  //     tLoading: 'Loading image #%curr%...',
+  //     mainClass: 'mfp-img-mobile',
+  //     gallery: {
+  //       enabled: true,
+  //       navigateByImgClick: true,
+  //       preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+  //     },
+  //     image: {
+  //       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+  //       titleSrc: function(item) {
+  //         return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+  //       }
+  //     }
+  //   });
+  // });
+  $(document).ready(function() {
+    $('#gallary-portfolio').magnificPopup({type:'image'});
+  });
 
   window.addEventListener('load', () => {
     aos_init();

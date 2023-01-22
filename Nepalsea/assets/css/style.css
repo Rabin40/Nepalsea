@@ -51,6 +51,25 @@ h6 {
 .hero .active {
   background-color: #717171;
 }
+.dot-row{
+  transform: translateY(100px);
+}
+.char-about{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.char-p {
+  /* overflow: hidden;
+  max-width: 100ch;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 /* .centered {
   position: absolute;
   top: 50%;
@@ -855,7 +874,7 @@ section {
   font-size: 18px;
 }
 
-.services .service-box.blue {
+/* .services .service-box.blue {
   border-bottom: 3px solid #2db6fa;
 }
 
@@ -870,25 +889,44 @@ section {
 
 .services .service-box.blue:hover {
   background: #2db6fa;
+} */
+.services .service-box {
+  /* border-bottom: 3px solid #2db6fa; */
+  border-bottom: 3px solid #0f529e;
+
+}
+
+.services .service-box .icon {
+  color: #0f529e;
+  background: #d9ebfd;
+}
+
+.services .service-box .read-more {
+  color: #0f529e;
+}
+
+.services .service-box:hover {
+  background: #0f529e;
+ 
 }
 
 .services .service-box.orange {
-  border-bottom: 3px solid #f68c09;
+  border-bottom: 3px solid #0f529e;
 }
 
 .services .service-box.orange .icon {
-  color: #f68c09;
-  background: #fde3c4;
+  color: #0f529e;
+  background: #d9ebfd;
 }
 
 .services .service-box.orange .read-more {
-  color: #f68c09;
+  color: #0f529e;
 }
 
 .services .service-box.orange:hover {
-  background: #f68c09;
+  background: #0f529e;
 }
-
+/* 
 .services .service-box.green {
   border-bottom: 3px solid #08da4e;
 }
@@ -955,7 +993,7 @@ section {
 
 .services .service-box.pink:hover {
   background: #f51f9c;
-}
+} */
 
 .services .service-box:hover h3,
 .services .service-box:hover p,
