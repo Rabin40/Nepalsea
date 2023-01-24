@@ -25,6 +25,7 @@
   .services-content-item:nth-of-type(even) .row .services-content-item-left {
     border-right: none;
     border-left: 1px solid #d3d3d3;
+    justify-content: flex-start;
   }
   .services-content-item:nth-of-type(even) .row .services-content-item-left::after {
     content: "";
@@ -71,6 +72,13 @@
   border-radius: 50%;
   right: -8px;
   top: -18px;
+}
+.services-content-item .services-content-item-left .services-content-img {
+  max-width: 470px;
+  width: 100%;
+}
+.services-content-item .services-content-item-left .services-content-img img {
+  width: 100%;
 }
 .services-content-item .services-content-item-left .services-content-img::after {
   content: "";

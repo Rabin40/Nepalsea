@@ -780,6 +780,40 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.service{
+  width: 100vw;
+  text-align: center;
+}
+
+.service .row{
+  margin:2rem 0;
+  padding:0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service .row .image img{
+  width:50vw;
+  height:55vh;
+}
+
+.service .row .content{
+  text-align: left;
+  padding:0 3rem;
+}
+
+.service .row .content h3{
+  font-size: 3rem;
+  color:var(--color);
+}
+
+.service .row .content p{
+  font-size: 1.5rem;
+  color:#333;
+  padding:1rem 0;
+}
+
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 100%;
@@ -2320,6 +2354,7 @@ section {
   font-family: "Nunito", sans-serif;
 }
 
+
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
@@ -2396,4 +2431,56 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.Product_sec{ 
+  width: 100%; 
+  text-align: center; 
+}
+
+.Product_sec li{ 
+  padding: 0px 0px 90px 0px; 
+  margin: 0px; 
+}
+
+.Product_sec li .right { 
+  width: 100%; 
+  float: none; 
+}
+
+.Product_sec li .right .img { 
+  margin: auto; 
+  float: none; 
+  padding-bottom: 30px;
+}
+
+.Product_sec li .right .Details { 
+  width: 100%; 
+  text-align: center; 
+}
+.Product_sec li .right .Details p { 
+  text-align: center; 
+}
+.Product_sec li .Details a { 
+  margin: auto; 
+  float: none; 
+}
+
+.Product_sec li .left {  
+  width: 100%; 
+  float: none; 
+  padding-left: 0px; 
+}
+
+.Product_sec li .left .img { 
+  margin: auto; 
+  float: none; 
+  padding-bottom: 30px;
+}
+.Product_sec li .left .Details { 
+  width: 100%; 
+  text-align: center; 
+}
+.Product_sec li .left .Details p { 
+  text-align: center; 
 }
